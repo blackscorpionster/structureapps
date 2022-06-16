@@ -38,6 +38,7 @@ def list_play():
     print(len(list))
     print(list)
     list[len(list):] = [100]
+    list.append(100)
     #print(list.pop())
     print(len(list))
     for idx, value in enumerate(list):
